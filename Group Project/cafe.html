@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" 
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="new.css"/>
+    <link rel="stylesheet" href="newest.css"/>
+    <script src="index.js"></script>
+    <title>Student Voice</title>
+</head>
+
+<body>
+    <!--NavBar-->
+    <div class="navbar">
+        <div class="container flex">
+        <!--    <img class = "logo" src="img/logo.png" alt="">-->
+            <h1 class="logo">Student Voice</h1>  
+        </div> 
+    </div>
+
+    <section class = "showcase"> 
+        <div class = "container grid">     
+            <div class = "showcase-text"> 
+                <p> Feedbacks submitted on this website are made public but ananymous</p>
+            </div>
+        </div>
+    </section>
+
+    <div class = "body">
+    
+            <div class = "showcase-form card">
+                <div>
+                    <input type = "text" name="campus" placeholder="Campus"> 
+                </div>
+            </div>
+
+            <div>
+                <div class = "showcase-form card">
+                    <input type = "text" name="campus" placeholder="Location"> 
+                </div>
+            </div>
+
+            <div class = "showcase-form card card3" >
+                <div>
+                    <input type = "radio" id= "mood-1" name="mood" value="veryangry" class="radio"> 
+                    <label class="emoji emoji-1" for='mood-1'>&#128545;
+                    </label>
+                
+                    <input type = "radio" id= "mood-2" name="mood" value="angry" class="radio"> 
+                    <label class="emoji emoji-2" for='mood-2'>&#128544;
+                    </label>
+                
+                    <input type = "radio" id= "mood-3" name="mood" value="straightface" class="radio"> 
+                    <label class="emoji emoji-3" for='mood-3'>&#128528;
+                    </label>
+                
+                    <input type = "radio" id= "mood-4" name="mood" value="happy" class="radio"> 
+                    <label class="emoji emoji-4" for='mood-4'>&#128578;
+                    </label>
+                
+                    <input type = "radio" id= "mood-5" name="mood" value="veryhappy" class="radio"> 
+                    <label class="emoji emoji-5" for='mood-5'>&#128579;
+                    </label>
+                </div>
+            </div>
+
+            <div class = "showcase-form card card4" >
+                <div id="radios">
+                <label class = "slide" for="input1"></label>
+                <input  id="input1" name="radio" type="radio" />
+
+                <label  class = "slide"for="input2"></label>
+                <input  id="input2" name="radio" type="radio" />
+                
+                <label class = "slide" for="input3"></label>
+                <input  id="input3" name="radio" type="radio" />
+
+                <label class = "slide" for="input4"></label>
+                <input  id="input4" name="radio" type="radio" />
+
+                <label class = "slide" for="input5"></label>
+                <input  id="input5" name="radio" type="radio" />
+
+                <span id="slider"></span>
+                </div>
+              </div>
+
+            <div  class="showcase-form card" > 
+                <div class =  "form-control form-control3"> 
+                    <textarea  type = "text"  name = "description" spellcheck="false" placeholder="Comment">
+                    Explain the issue to us
+                    </textarea> <br>
+                </div>
+            </div>
+            
+           <a href="cafe.html"> <input type="submit" value="Send" class = "btn btn3 btn-primary">
+            </a>
+    </div>
+
+   
+    <footer class ="footer">
+        <div class="container flex">
+            <div>
+                <h2> Students' Voice</h2>
+                <p> Copyright &copy; 2023</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
